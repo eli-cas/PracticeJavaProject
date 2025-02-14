@@ -1,0 +1,19 @@
+Exercises from Kindle Book: 
+OCP Oracle Certified Proffesional JAVA SE 17/21 Programmer Exam Fundamentals 
+
+1.10.10 Exercise
+Create classes in two different named packages. 
+Define static and instance fields in one of those classes and access those fields from the other class. 
+See what happens when both the classes try to access the fields of each other. 
+Hint: If you have trouble compiling classes, go through the "Compilation and Execution" section again.
+//It gives me 3 compiling errors: the constructor is undefined and the fields are not accessible.
+
+Define a local variable in a method. Update this variable in a while loop and print it out after the while loop ends. 
+Check what happens when you define a variable by the same name within the while loop.  
+
+Create a class Admin in package hr and another class TimeCard in package hr.reporting with a static method add(). 
+Invoke the static method from the Admin class using different import statements.  
+
+Create a class with a main method and execute the class with a few arguments. Print the number of arguments. 
+
+Which Java feature (or lack of thereof) annoys you most. Why?
