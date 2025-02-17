@@ -10,6 +10,7 @@ Hint: If you have trouble compiling classes, go through the "Compilation and Exe
 
 Define a local variable in a method. Update this variable in a while loop and print it out after the while loop ends. 
 Check what happens when you define a variable by the same name within the while loop.  
+//The variable is updated globally
 
 Create a class Admin in package hr and another class TimeCard in package hr.reporting with a static method add(). 
 Invoke the static method from the Admin class using different import statements.  
