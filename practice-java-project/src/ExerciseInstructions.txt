@@ -18,3 +18,31 @@ Invoke the static method from the Admin class using different import statements.
 Create a class with a main method and execute the class with a few arguments. Print the number of arguments. 
 
 Which Java feature (or lack of thereof) annoys you most. Why?
+
+
+3.4 Exercise Create a array of booleans of length 3 inside the main method. 
+Print the elements of the array without initializing the array elements explicitly. 
+Observe the output. Given int[] first = new int[3];, int[] second = {};, 
+and int[] third = null;, print out the length of the three arrays and print out every element of the three arrays. 
+
+Create an array of chars containing four values. 
+Write assignment statements involving the array such that the first element of the array will contain the value of the 
+second element, second element will have the value that was there in the third element. 
+and third element will contain the value of the fourth element. Declare and initialize an array of length 4 of type array of Strings 
+without using the new keyword such that no two arrays of Strings have the same length. 
+Print the length of all of the arrays one by one (including the length of the two dimensional array). 
+
+Given the statement String[][] names = new String[2][3]; 
+How many Strings will you need to fill up names completely? Initialize each element of names with a non-null String.
+Print each of those values one by one without using a loop. 
+Do the same using nested for loops after going through the chapter on loops.
+
+Given the following code:
+int[][][] nums = new int[1][4][2]; for(int i = 0; i<nums.length; i++){   
+    for(int j = 0; j<nums[i].length; j++){       
+        for(int k = 0; k<nums[i][j].length; k++){       
+        nums[i][j][k] = i + j + k;        
+        System.out.println("num["+i+"]["+j+"]["+k+"] = "+nums[i][j][k]);     
+        }   
+    } 
+}
